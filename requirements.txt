@@ -1,0 +1,46 @@
+# Core Dependencies
+torch>=2.0.0
+numpy>=1.24.0
+pyyaml>=6.0
+click>=8.1.0
+rich>=13.0.0  # Beautiful terminal output
+
+# BCI/EEG Processing
+mne>=1.5.0  # EEG/MEG processing
+braindecode>=0.8.0  # Deep learning for EEG
+scipy>=1.10.0
+
+# Adversarial Attacks
+foolbox>=3.3.0  # Adversarial example library
+adversarial-robustness-toolbox>=1.18.0  # ART for adversarial ML
+
+# LLM Agent Testing
+openai>=1.0.0  # OpenAI API (for testing)
+anthropic>=0.18.0  # Anthropic API (for testing)
+langchain>=0.1.0  # Agent framework integration
+
+# Security & Cryptography
+cryptography>=41.0.0
+pycryptodome>=3.19.0
+
+# Data Processing & Visualization
+pandas>=2.0.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
+jupyter>=1.0.0  # For tutorials
+
+# Testing
+pytest>=7.4.0
+pytest-cov>=4.1.0
+pytest-asyncio>=0.21.0
+
+# Development
+black>=23.0.0
+ruff>=0.1.0
+mypy>=1.5.0
+
+# Optional: SDR for wireless attacks (requires hackrf)
+# pyhackrf>=0.2.0
+
+# Optional: BCI Hardware
+# openbci-gui>=2.0.0  # OpenBCI integration
