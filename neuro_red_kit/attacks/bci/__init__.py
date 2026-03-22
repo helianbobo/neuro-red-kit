@@ -11,6 +11,13 @@ from .injection import (
     create_wireless_injection,
     simulate_eeg_spoofing,
 )
+from .spoofing import (
+    SensorSpoofingAttack,
+    SpoofingConfig,
+    SpoofingResult,
+    SpoofingMode,
+    create_sensor_spoofing,
+)
 
 __all__ = [
     "AdversarialBCIAttack",
@@ -24,4 +31,9 @@ __all__ = [
     "InjectionMode",
     "create_wireless_injection",
     "simulate_eeg_spoofing",
+    "SensorSpoofingAttack",
+    "SpoofingConfig",
+    "SpoofingResult",
+    "SpoofingMode",
+    "create_sensor_spoofing",
 ]
