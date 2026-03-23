@@ -18,6 +18,12 @@ from .spoofing import (
     SpoofingMode,
     create_sensor_spoofing,
 )
+from .feature_forgery import (
+    FeatureForgeryAttack,
+    ForgeryConfig,
+    ForgeryType,
+    create_feature_forgery,
+)
 
 __all__ = [
     "AdversarialBCIAttack",
@@ -36,4 +42,8 @@ __all__ = [
     "SpoofingResult",
     "SpoofingMode",
     "create_sensor_spoofing",
+    "FeatureForgeryAttack",
+    "ForgeryConfig",
+    "ForgeryType",
+    "create_feature_forgery",
 ]
