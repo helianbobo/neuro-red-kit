@@ -18,6 +18,16 @@ from neuro_red_kit.attacks.agent.tool_abuse import (
     create_batch_tool_abuses,
 )
 
+from neuro_red_kit.attacks.agent.hijacking import (
+    HijackType,
+    HijackSeverity,
+    HijackConfig,
+    HijackPayload,
+    AgentHijackingAttack,
+    create_agent_hijack,
+    create_batch_hijacks,
+)
+
 __all__ = [
     "InjectionType",
     "InjectionConfig",
@@ -31,4 +41,11 @@ __all__ = [
     "ToolAbuseAttack",
     "create_tool_abuse_attack",
     "create_batch_tool_abuses",
+    "HijackType",
+    "HijackSeverity",
+    "HijackConfig",
+    "HijackPayload",
+    "AgentHijackingAttack",
+    "create_agent_hijack",
+    "create_batch_hijacks",
 ]
