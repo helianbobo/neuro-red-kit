@@ -38,6 +38,17 @@ from neuro_red_kit.attacks.agent.privilege_escalation import (
     create_batch_escalations,
 )
 
+from neuro_red_kit.attacks.agent.identity_spoofing import (
+    SpoofingType,
+    SpoofingSeverity,
+    SpoofingConfig,
+    SpoofingPayload,
+    IdentitySpoofingAttack,
+    create_identity_spoofing,
+    create_batch_spoofings,
+    evaluate_spoofing_payload,
+)
+
 __all__ = [
     "InjectionType",
     "InjectionConfig",
@@ -65,4 +76,12 @@ __all__ = [
     "PrivilegeEscalationAttack",
     "create_privilege_escalation",
     "create_batch_escalations",
+    "SpoofingType",
+    "SpoofingSeverity",
+    "SpoofingConfig",
+    "SpoofingPayload",
+    "IdentitySpoofingAttack",
+    "create_identity_spoofing",
+    "create_batch_spoofings",
+    "evaluate_spoofing_payload",
 ]
