@@ -28,6 +28,16 @@ from neuro_red_kit.attacks.agent.hijacking import (
     create_batch_hijacks,
 )
 
+from neuro_red_kit.attacks.agent.privilege_escalation import (
+    EscalationType,
+    EscalationSeverity,
+    EscalationConfig,
+    EscalationPayload,
+    PrivilegeEscalationAttack,
+    create_privilege_escalation,
+    create_batch_escalations,
+)
+
 __all__ = [
     "InjectionType",
     "InjectionConfig",
@@ -48,4 +58,11 @@ __all__ = [
     "AgentHijackingAttack",
     "create_agent_hijack",
     "create_batch_hijacks",
+    "EscalationType",
+    "EscalationSeverity",
+    "EscalationConfig",
+    "EscalationPayload",
+    "PrivilegeEscalationAttack",
+    "create_privilege_escalation",
+    "create_batch_escalations",
 ]
